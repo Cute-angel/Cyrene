@@ -1,0 +1,18 @@
+{
+  "description": "Recall Cyrene memory candidates at the beginning of each user turn.",
+  "hooks": {
+    "UserPromptSubmit": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node \"$PLUGIN_ROOT/scripts/user-prompt-submit.mjs\"",
+            "commandWindows": "node \"%PLUGIN_ROOT%\\scripts\\user-prompt-submit.mjs\"",
+            "timeout": 8,
+            "statusMessage": "Checking Cyrene memories"
+          }
+        ]
+      }
+    ]
+  }
+}

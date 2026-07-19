@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "cyrene-memory": {
+      "command": "node",
+      "args": ["./scripts/mcp-server.mjs"],
+      "cwd": "."
+    }
+  }
+}

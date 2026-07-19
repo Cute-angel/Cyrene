@@ -1,0 +1,23 @@
+{
+  "name": "cyrene-memory",
+  "version": "0.1.0",
+  "description": "Connect Codex to the local Cyrene procedural memory core.",
+  "author": {
+    "name": "Cyrene"
+  },
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "Cyrene Memory",
+    "shortDescription": "Reuse procedural memories across coding tasks.",
+    "longDescription": "Matches a small set of Cyrene memory candidates, lets Codex select relevant entries, and provides confirmed memory management workflows.",
+    "developerName": "Cyrene",
+    "category": "Productivity",
+    "capabilities": ["Read", "Write"],
+    "defaultPrompt": [
+      "Use Cyrene memories that are relevant to this task.",
+      "Remember this reusable workflow with Cyrene.",
+      "Search my Cyrene procedural memories."
+    ]
+  }
+}
